@@ -1,0 +1,102 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: lcaceda.8189c1e3
+  rev: s-05896cfc
+  saveCenter: true
+attribution: ''
+center: 
+  - -84.7595
+  - 33.6421
+  - 8
+description: Polygon file
+Layer: 
+  - id: ProjEval2015t
+    Datasource: 
+      file: /Users/Leslie/Documents/ArcGIS/ProjEval/ProjEval2015t.shp
+      type: shape
+    description: Proj Eval Lines
+    fields: 
+      ID: String
+      Acres: Number
+      ARCID: String
+      ARCID_5: String
+      Bundle_Nam: String
+      COUNTYFP10: String
+      created__1: String
+      created__2: String
+      created_da: String
+      created_us: String
+      DOCNAME: String
+      Exist_Lane: String
+      EXTENTS: String
+      F1HR_NA: String
+      F8HR_NA: String
+      Fact_Sheet: String
+      GDOTPI: String
+      GEOID10: String
+      Join_Count: Number
+      Label: String
+      last_edi_1: String
+      last_edi_2: String
+      last_edi_3: String
+      last_edite: String
+      LOCATION: String
+      MNGWPD: String
+      MPO: String
+      MSA: String
+      NAME10: String
+      NAMELSAD10: String
+      OBJECTID: Number
+      PRJ_DESC: String
+      PRJ_GROUP: String
+      PRJ_TYPE: String
+      Project_10: Number
+      Project_11: String
+      Project_12: String
+      Project_13: String
+      Project_14: String
+      Project_15: String
+      Project_16: String
+      Project_17: String
+      Project_18: String
+      Project_19: String
+      Project_20: String
+      Project_21: String
+      Project_22: String
+      Project_23: String
+      Project_24: String
+      Project_25: String
+      Project_26: String
+      Project__1: String
+      Project__2: Number
+      Project__3: Number
+      Project__4: String
+      Project__5: Number
+      Project__6: Number
+      Project__7: Number
+      Project__8: Number
+      Project__9: String
+      Project_Ev: Number
+      Prop_Lanes: String
+      RDC_AAA: String
+      Reg_Comm: String
+      Shape_Area: Number
+      Shape_Leng: Number
+      Shape_ST_1: Number
+      Shape_ST_2: Number
+      Shape_STAr: Number
+      Shape_STLe: Number
+      SPONSOR: String
+      Sq_Miles: Number
+      STATEFP10: String
+      STATUS: String
+      TARGET_FID: Number
+      totpop10: Number
+      WFD: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=699999.9999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs
+maxzoom: 14
+minzoom: 0
+name: ProjectEval

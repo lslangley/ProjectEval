@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">-84.7595,33.6421,8</Parameter>
+  <Parameter name="description"><![CDATA[Polygon file]]></Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"ProjEval2015t","description":"Proj Eval Lines","fields":{"OBJECTID":"Number","Join_Count":"Number","TARGET_FID":"Number","ARCID":"String","Bundle_Nam":"String","ARCID_5":"String","PRJ_GROUP":"String","PRJ_TYPE":"String","LOCATION":"String","STATUS":"String","PRJ_DESC":"String","EXTENTS":"String","SPONSOR":"String","GDOTPI":"String","Exist_Lane":"String","Prop_Lanes":"String","DOCNAME":"String","created_us":"String","created_da":"String","last_edite":"String","last_edi_1":"String","Fact_Sheet":"String","Shape_STAr":"Number","Shape_STLe":"Number","ID":"String","Project_Ev":"Number","Project__1":"String","Project__2":"Number","Project__3":"Number","Project__4":"String","Project__5":"Number","Project__6":"Number","Project__7":"Number","Project__8":"Number","Project__9":"String","Project_10":"Number","Project_11":"String","Project_12":"String","Project_13":"String","Project_14":"String","Project_15":"String","Project_16":"String","Project_17":"String","Project_18":"String","Project_19":"String","Project_20":"String","Project_21":"String","Project_22":"String","Project_23":"String","Project_24":"String","Project_25":"String","Project_26":"String","STATEFP10":"String","COUNTYFP10":"String","GEOID10":"String","NAME10":"String","NAMELSAD10":"String","totpop10":"Number","WFD":"String","RDC_AAA":"String","MNGWPD":"String","MPO":"String","MSA":"String","F1HR_NA":"String","F8HR_NA":"String","Reg_Comm":"String","Acres":"Number","Sq_Miles":"Number","Label":"String","created__1":"String","created__2":"String","last_edi_2":"String","last_edi_3":"String","Shape_ST_1":"Number","Shape_ST_2":"Number","Shape_Leng":"Number","Shape_Area":"Number"}}]}]]></Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[ProjectEval]]></Parameter>
+</Parameters>
+
+
+<Layer name="ProjEval2015t"
+  buffer-size="8"
+  srs="+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=699999.9999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/Leslie/Documents/ArcGIS/ProjEval/ProjEval2015t.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
